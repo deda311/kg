@@ -1,0 +1,514 @@
+@font-face{
+	font-family: "Fjalla";
+	src: url(fonts/FjallaOne-Regular.ttf);
+}
+body{
+	background-color: #29606b;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.header{
+	min-height: 600px;
+	background-color: #29606b;
+	background-image: url(images/bg.png);
+	background-position: center;
+}
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+	min-height: 80px;
+	border: 1px solid #2a6c78;
+	background-color: #29606b85;
+
+}
+header ul{
+	display: flex;
+	max-width: 270px;
+	width: 100%;
+	list-style: none;
+	justify-content: space-between;
+
+}
+.tox h1{
+	font-size: 41px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: "Fjalla";
+	text-align: center;
+}
+.tox p{
+	font-size: 31px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: "Fjalla";
+	text-align: center;
+	padding-bottom: 20px;
+}
+.tox a{
+	font-size: 17px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-family: "Fjalla";
+	display: flex;
+	justify-content: center;
+	background-image: url(images/btn.png);	
+	background-repeat: no-repeat;
+	padding-top: 12px;
+	margin: 0 auto;
+	max-width: 142px;
+	width: 100%;
+	min-height: 59px;
+}
+.tox{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	min-height:320px;
+}
+.blox{
+	max-width: 585px;
+	width: 100%;
+	min-height: 336px;
+	background-color: #e84c3d;
+	color: #ffffff;
+	font-family: "Fjalla";
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+}
+.blox p{
+	font-size: 39px;
+}
+.blox span{
+	font-size: 12px;
+}
+.blox img{
+	border-radius: 100%;
+	max-width: 104px;
+	min-height: 104px;
+	background-color: white;
+}
+.bxox{
+	max-width: 585px;
+	width: 100%;
+	min-height: 336px;
+	background-color: #1bbc9d;	
+	color: #ffffff;
+	font-family: "Fjalla";
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+}
+.bxox p{
+	font-size: 39px;
+}
+.bxox span{
+	font-size: 12px;
+}
+.bxox img{
+	border-radius: 100%;
+	max-width: 104px;
+	min-height: 104px;
+	background-color: white;
+}
+.bxxx{
+	max-width: 585px;
+	width: 100%;
+	min-height: 336px;
+	background-color: #fdbd1f;	
+	color: #ffffff;
+	font-family: "Fjalla";
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+}
+.bxxx p{
+	font-size: 39px;
+}
+.bxxx span{
+	font-size: 12px;
+}
+.bxxx img{
+	border-radius: 100%;
+	max-width: 104px;
+	min-height: 104px;
+	background-color: white;
+}
+.boox{
+	max-width: 585px;
+	width: 100%;
+	min-height: 336px;
+	background-color: #9d58b5;	
+	color: #ffffff;
+	font-family: "Fjalla";
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.boox p{
+	font-size: 39px;
+}
+.boox span{
+	font-size: 12px;
+}
+.boox img{
+	border-radius: 100%;
+	max-width: 104px;
+	min-height: 104px;
+	background-color: white;
+}
+.main{
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 670px;
+}
+.block{
+	color: white;
+	text-align: center;
+	display: flex;
+
+	flex-direction: column;
+	justify-content: flex-end;
+
+}
+.block h1{
+	font-size: 20px;
+	font-family: "Fjalla";
+	padding-top: 70px;
+}
+.block p{
+	font-size: 20px;
+	font-family: "Fjalla";
+	padding-bottom: 70px;
+}
+.ds p{
+	max-width: 309px;
+	min-height: 127px;
+	font-size: 16px;
+	line-height: 26px;
+	color: #76b2be;
+	font-weight: 400;
+	font-family: "Source Sans Pro";
+	text-align: center;
+}
+.ds{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.ds div{
+	max-width: 374px;
+	min-height: 495px;
+	background-color: #245963;
+}
+.red{
+	align-items: center;
+	border-top: 6px solid #e84c3d ;
+	display: flex;
+	flex-direction: column;
+	gap:35px;
+	justify-content: center;
+
+}
+.orange{
+	align-items: center;
+	border-top: 6px solid #fdbd1f ;
+	display: flex;
+	flex-direction: column;
+	gap:35px;
+	justify-content: center;
+
+}
+.green{
+	align-items: center;
+	border-top: 6px solid #1bbc9b ;	
+	display: flex;
+	flex-direction: column;
+	gap:35px;
+	justify-content: center;
+}
+.green button{
+	display: inline-block;
+	max-width: 103px;
+	width: 100%;
+	min-height: 37px;
+	background-color: #1bbc9b;
+	border:none; 
+	color: white; 
+	font-family: "Fjalla";
+	justify-content: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.green button:before {
+	display: inline-block;
+	content: "";
+	position: absolute;
+	left: 41px;
+	top: 37px;
+	max-width: 0px;
+	width: 100%;
+	min-height: 0px;
+	border-style: solid;
+	border-width: 10px 10px 0 10px;
+	border-color: #1bbc9b transparent transparent transparent;
+	transform: rotate(0deg);
+}
+.red button{
+	width: 100%;
+	max-width: 103px;
+	display: inline-block;
+	min-height: 37px;
+	background-color: #e84c3d;
+	border:none; 
+	color: white; 
+	font-family: "Fjalla";
+	justify-content: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.red button:before {
+	display: inline-block;
+	content: "";
+	position: absolute;
+	left: 41px;
+	top: 37px;
+	max-width: 0px;
+	width: 100%;
+	min-height: 0px;
+	border-style: solid;
+	border-width: 10px 10px 0 10px;
+	border-color: #e84c3d transparent transparent transparent;
+	transform: rotate(0deg);
+}
+.orange button{
+	display: inline-block;
+	width: 100%;
+	max-width: 103px;
+	min-height: 37px;
+	background-color: #fdbd1f;
+	border:none; 
+	color: white; 
+	font-family: "Fjalla";
+	justify-content: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.orange button:before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	left: 41px;
+	top: 37px;
+	width: 100%;
+	max-width: 0px;
+	min-height: 0px;
+	border-style: solid;
+	border-width: 10px 10px 0 10px;
+	border-color: #fdbd1f transparent transparent transparent;
+	transform: rotate(0deg);
+}
+.xen{
+	min-height: 600px;
+}
+.hent img{
+	background-color: white;
+	width: 100%;
+	max-width: 100px;
+	min-height: 100px;
+	border-radius: 100%;
+
+}
+.hent{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 80px;
+	gap:13px;
+}
+.hent p{
+	font-size: 21px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: "Fjalla One";
+	text-align: center;
+}
+.hent h1{
+	color: white;
+	font-size: 29px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-family: "Fjalla One";
+	text-align: center;
+}
+.ain{
+	background-color: #245963;
+	border-color: #377d89;
+	width: 100%;
+	min-height: 44px;
+	border-style: solid;
+}
+.henta{
+	width: 100%;
+	max-width: 100%;
+	min-height: 123px;
+	background-color: #245963;
+	border-color: #377d89;
+	border-style: solid;
+}
+.form{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 580px;
+	min-height: 200px;
+	align-content: space-between;
+	gap:30px;
+
+}
+.form button{
+	font-size: 15px;
+	text-transform: uppercase;
+	background-color: #245963;
+	font-weight: 400;
+	font-family: "Fjalla";
+	color: white;
+	max-width: 100px;
+	width: 100%;
+	min-height: 37px;
+	border-color: #377d89;
+	max-width: 103px;
+	min-height: 37px;
+	font-family: "Fjalla";
+	justify-content: center;
+	background-repeat: no-repeat;
+	position: relative;
+	border-style: solid;
+}
+.nikita{
+	display: flex;
+	justify-content: center;
+	max-width: 100%;
+	width: 100%;
+	border:none;
+	margin-bottom: 19px;
+}
+.nikita button:before {
+	content: "";
+	position: absolute;
+	left: 41px;
+	top: 37px;
+	max-width: 0px;
+	min-height: 0px;
+	border-style: solid;
+	border-width: 10px 10px 0 10px;
+	border-color: #245963 transparent transparent transparent;
+	transform: rotate(0deg);
+}
+.end{
+	min-height: 200px;
+	background-color: #245963;
+}
+.hentai img{
+	background-color: white;
+	border-radius: 100%;
+	max-width: 40px;
+	min-height: 40px;
+}
+.hentai p{  
+	color: white;
+}
+.hentai{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 109px;
+	gap:15px;
+	position: relative;
+}
+.hentai:before{
+	content: "";
+	position: absolute;
+	top: 100px;
+	max-width: 280px;
+	min-height: 0px;
+	border-style: solid;
+	border-color: white;
+	border-color: #377d89;
+	border-width: 1px;
+}
+.vvv p{
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+.ccc{
+	color: yellow;
+}
+@media screen and (max-width: 1170px){
+	.main{
+		justify-content: center;
+	}
+	
+}
+@media screen and (max-width: 1024px){
+	.ds{
+		flex-direction: column;
+		align-items: center;
+	}
+}
+@media screen and (max-width: 768px){
+	li{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 400px){
+	.tox h1{
+		font-size: 25px;
+	}
+	.tox p{
+		font-size: 18px;
+	}
+    .blox p{
+        font-size: 25px;
+    }
+    .bxxx p{
+        font-size: 25px;
+    }
+     .bxox p{
+        font-size: 25px;
+    }
+      .boox p{
+        font-size: 25px;
+    }
+}
+
+
