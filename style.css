@@ -509,6 +509,10 @@ header ul{
       .boox p{
         font-size: 25px;
     }
+	header{
+		align-items:center;
+		justify-content: space-around;
+		flex-direction: column;
 }
 
 
