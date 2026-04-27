@@ -514,7 +514,18 @@ header ul{
 		justify-content: space-around;
 		flex-direction: column;
 }
-
+ .blox span{
+        font-size: 25px;
+    }
+    .bxxx span{
+        font-size: 25px;
+    }
+     .bxox span{
+        font-size: 25px;
+    }
+      .boox span{
+        font-size: 25px;
+    }
 @media screen and (max-width: 414px){
 	.tox h1{
 		font-size: 25px;
