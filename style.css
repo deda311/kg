@@ -514,3 +514,28 @@ header ul{
 		justify-content: space-around;
 		flex-direction: column;
 }
+
+@media screen and (max-width: 414px){
+	.tox h1{
+		font-size: 25px;
+	}
+	.tox p{
+		font-size: 18px;
+	}
+    .blox p{
+        font-size: 25px;
+    }
+    .bxxx p{
+        font-size: 25px;
+    }
+     .bxox p{
+        font-size: 25px;
+    }
+      .boox p{
+        font-size: 25px;
+    }
+	header{
+		align-items:center;
+		justify-content: space-around;
+		flex-direction: column;
+}
