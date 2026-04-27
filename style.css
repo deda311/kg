@@ -515,16 +515,16 @@ header ul{
 		flex-direction: column;
 }
  .blox span{
-        font-size: 25px;
+    pading:10px;
     }
     .bxxx span{
-        font-size: 25px;
+        pading:10px;
     }
      .bxox span{
-        font-size: 25px;
+      pading:10px;
     }
       .boox span{
-        font-size: 25px;
+        pading:10px;
     }
 @media screen and (max-width: 414px){
 	.tox h1{
